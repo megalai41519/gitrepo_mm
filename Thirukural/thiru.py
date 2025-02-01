@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-df = pd.read_csv("/Users/manimegalaiselvaraj/Downloads/AI/Thirukural1.csv")
+df = pd.read_csv("Thirukural1.csv")
 df.head()
 
 st.title("Thirukural Search")
