@@ -9,7 +9,7 @@ st.title("Thirukural Search")
 search_type = st.radio("Search by:", ["Chapter Name", "Section Name"])
 
 
-if search_type == "Concept Name":
+if search_type == "Chapter Name":
     chapter = st.text_input("Enter Chapter Name")
     result = df[df["Chapter Name"].str.contains(chapter, case=False, na=False)]
 elif search_type == "Section Name":
