@@ -3,6 +3,8 @@ import pandas as pd
 df = pd.read_csv("Thirukural1.csv")
 df.head()
 
+result = pd.DataFrame()
+
 st.title("Thirukural Search")
 search_type = st.radio("Search by:", ["Chapter Name", "Section Name"])
 
