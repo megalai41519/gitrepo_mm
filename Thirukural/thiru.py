@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 df = pd.read_csv("Thirukural1.csv")
 df.head()
-
+print(df.columns)
 result = pd.DataFrame()
 
 st.title("Thirukural Search")
